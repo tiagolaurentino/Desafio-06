@@ -1,0 +1,206 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+/* font-family: 'Inter', sans-serif; */
+body {
+    background-color: white;
+    width: 100vw;
+    height: 100vh;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main {
+    background-color: hsl(36, 100%, 99%);
+}
+
+.w {
+    color: black;
+    text-align: left;
+    font-weight: bolder;
+    font-size: 80px;
+}
+.um {
+    background-color: hsl(36, 100%, 99%);
+   text-align: end;
+   width: 1079px;
+   padding: 15px;
+   color: hsl(233, 8%, 79%);
+   padding-bottom: 30px;
+   line-height: 22px;
+}
+.espaço {
+    display:inline-flex;
+    padding-right: 30px;
+    font-family: 'Inter', sans-serif;
+}
+
+.imagem {
+    background-color: chartreuse;
+    width: 680px;
+    height: 200px;
+}
+img {
+    width: 680px;
+    height: 200px;
+}
+.dois {
+    display: inline-flex;
+}
+.tres {
+    background-color: hsl(36, 100%, 99%);
+    width: 340px;
+    height: 175px;
+    padding: 20px;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+}
+.quatro {
+    background-color: hsl(36, 100%, 99%);
+    color: hsl(233, 8%, 79%);
+    width: 340px;
+    height: 175px;
+    padding: 15px;
+    line-height: 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+}
+button {
+    background-color:  hsl(5, 85%, 63%);
+    color: hsl(233, 8%, 79%);
+    border: 1px solid hsl(5, 85%, 63%);
+    padding: 15px;
+    margin-top: 20px;
+    width: 170px;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    font-weight: bolder;
+}
+.cinco {
+    background-color: hsl(240, 100%, 5%);
+    width: 360px;
+    height: 375px;
+    padding: 10px;
+    margin-left: 39px;
+}
+h2 {
+    padding: 15px;
+    color: hsl(35, 77%, 62%);
+    font-size: 35px;
+    font-family: 'Inter', sans-serif;
+}
+h4 {
+    padding-bottom: 15px;
+    font-family: 'Inter', sans-serif;
+}
+.texto {
+    width: 340px;
+    height: 90px;
+    padding: 15px;
+    color: hsl(233, 8%, 79%);
+}
+ .seis {
+    background-color: hsl(36, 100%, 99%);
+    display: flex;
+    justify-content: space-between;
+    height: 150px;
+    width: 1079px;
+    padding-top: 47px;
+ }
+ .verde {
+    width: 240px;
+    height: 103px;   
+    padding-left: 20px;
+ }
+ span {
+    color: hsl(233, 8%, 79%);
+    font-family: 'Inter', sans-serif;
+    font-size: 19px;
+    font-weight: bolder;
+ }
+ h5 {
+    font-family: 'Inter', sans-serif;
+   padding-top: 15px;
+   padding-bottom: 15px;
+ }
+ .ver {
+    color: hsl(233, 8%, 79%);
+    font-family: 'Inter', sans-serif;
+    font-size: 11px;
+ }
+ .quadrado{
+    width: 360px;
+    height: 100px;
+    display:inline-flex;
+    
+ }
+ .retro {
+    width: 92px;
+    height: 101px;
+ }
+ .computador {
+    width: 90px;
+    height: 100px;
+ }
+ .laptop {
+    width: 90px;
+    height: 100px;
+ }
+ .controle {
+    width: 90px;
+    height: 100px;
+ }
+ .sete {
+    display: inline-flex;
+ }
+ .quadrupo {
+    display: inline-flex;
+ }
+
+ @media screen and (max-width: 800px) {
+    body {
+        background-color: black;
+    }
+  main {
+    margin: auto;
+    height: 1500px;
+    width: 400px;
+    background-color: brown;
+    padding-right: 50px;
+    position: relative;
+   } 
+ .cinco {
+    background-color: hsl(240, 100%, 5%);
+    width: 375px;
+   right: 25px;
+   position: absolute;
+ }
+ .um {
+    background-color: red;
+    width: 375px;
+    
+ }
+ .quadrupo, .trio, .imagem, img, .dois  {
+    width: 375px;
+    display: inline-block; 
+ }
+ .tres {
+    width: 375px;
+ }
+ .quatro {
+    width: 375px;
+ }
+  .seis {
+    position: absolute;
+    height: 420px;
+    width: 375px;
+    display: inline-block;
+    bottom: 58px;
+ }
