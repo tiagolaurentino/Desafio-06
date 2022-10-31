@@ -19,26 +19,45 @@ main {
     background-color: hsl(36, 100%, 99%);
 }
 
-.w {
+
+header > h1 {
     color: black;
-    text-align: left;
+    
     font-weight: bolder;
-    font-size: 80px;
+    font-size: 50px;
 }
 .um {
+    margin-top: 20px;
     background-color: hsl(36, 100%, 99%);
-   text-align: end;
+   height: 80px;
    width: 1079px;
-   padding: 15px;
+   padding-top: 20px;
    color: hsl(233, 8%, 79%);
    padding-bottom: 30px;
    line-height: 22px;
 }
 .espaço {
-    display:inline-flex;
-    padding-right: 30px;
-    font-family: 'Inter', sans-serif;
+    display: inline-block;
+    width: 100px;
+   
 }
+
+menu {   
+    float: right;
+}
+menu > ul {
+    list-style-type: none;  /*tirar as bolinhas das listas*/
+}
+
+ a {
+    font-family: 'Inter', sans-serif;
+    color: hsl(233, 8%, 79%);
+    text-decoration: none;
+    padding: 10px;
+ }
+  a:hover{
+   color: chartreuse;
+  }
 
 .imagem {
     background-color: chartreuse;
@@ -101,10 +120,12 @@ h4 {
     font-family: 'Inter', sans-serif;
 }
 .texto {
+    border-top: 1px solid gray;
     width: 340px;
-    height: 90px;
-    padding: 15px;
+    height: 95px;
+    padding: 10px;
     color: hsl(233, 8%, 79%);
+    
 }
  .seis {
     background-color: hsl(36, 100%, 99%);
@@ -172,21 +193,30 @@ h4 {
     margin: auto;
     height: 1500px;
     width: 400px;
-    background-color: brown;
-    padding-right: 50px;
+    
+   padding: 15px;
     position: relative;
    } 
  .cinco {
     background-color: hsl(240, 100%, 5%);
     width: 375px;
-   right: 25px;
+   right: 10px;
    position: absolute;
  }
  .um {
-    background-color: red;
+    background-color: hsl(36, 100%, 99%);
     width: 375px;
-    
+   background-image: url(../Desafio-06/assets/images/icon-menu.svg);
+  background-size: 30px 20px;
+  background-repeat: no-repeat;
+  background-position: right;
+  padding-right: 200px;
  }
+ menu {
+    display: none;
+ }
+ 
+ 
  .quadrupo, .trio, .imagem, img, .dois  {
     width: 375px;
     display: inline-block; 
@@ -202,5 +232,7 @@ h4 {
     height: 420px;
     width: 375px;
     display: inline-block;
-    bottom: 58px;
+    bottom: 28px;
+    right: 10px;
+ }
  }
